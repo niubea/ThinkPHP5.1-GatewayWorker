@@ -1,0 +1,29 @@
+{
+    "name": "libo/ThinkPHP5.1-GatewayWorker",
+    "keywords": [
+        "libo",
+        "ThinkPHP",
+        "GatewayWorker",
+        "Workerman",
+        "TP5.1"
+    ],
+    "homepage": "http://www.niubea.com",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "libo",
+            "email": "libo@usa.com",
+            "homepage": "http://www.niubea.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "topthink/framework": ">=5.1.0",
+        "workerman/workerman": ">=3.1.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "libo\\GatewayWorker\\": "./src"
+        }
+    }
+}
