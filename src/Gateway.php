@@ -7,7 +7,7 @@
  * @link      http://www.niubea.com/
  */
 
-namespace GatewayWorker;
+namespace libo\GatewayWorker;
 
 use libo\GatewayWorker\Lib\Context;
 
